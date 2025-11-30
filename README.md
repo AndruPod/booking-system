@@ -110,7 +110,7 @@ Server will run on `http://localhost:3000`.
 
 - `GET /health` - Check server status
 - `GET /apartments/get-all` - Get all apartments
-- *(Add your endpoints here)*
+- `/api/docs` - Swagger documentation
 
 ---
 
