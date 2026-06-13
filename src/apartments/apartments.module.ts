@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { ApartmentsService } from './apartments.service';
 import { ApartmentsController } from './apartments.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Apartment } from './apartments.entity';
+import { Apartment } from './entities/apartments.entity';
 import { AuthModule } from '../auth/auth.module';
 
 @Module({

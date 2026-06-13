@@ -5,11 +5,11 @@ import { UsersModule } from "./users/users.module";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import { AuthModule } from "./auth/auth.module";
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { User } from './users/users.entity';
+import { User } from './users/entities/users.entity';
 import { ApartmentsModule } from './apartments/apartments.module';
-import { Apartment } from './apartments/apartments.entity';
+import { Apartment } from './apartments/entities/apartments.entity';
 import { BookingModule } from './booking/booking.module';
-import { Booking } from './booking/booking.entity';
+import { Booking } from './booking/entities/booking.entity';
 
 @Module({
     imports: [

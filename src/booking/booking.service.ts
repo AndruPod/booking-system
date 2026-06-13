@@ -1,7 +1,7 @@
 import { BadRequestException, Injectable } from "@nestjs/common";
 import { InjectRepository } from '@nestjs/typeorm';
-import { Booking } from './booking.entity';
-import { Apartment } from '../apartments/apartments.entity';
+import { Booking } from './entities/booking.entity';
+import { Apartment } from '../apartments/entities/apartments.entity';
 import { Repository } from 'typeorm';
 import { ApartmentsService } from '../apartments/apartments.service';
 

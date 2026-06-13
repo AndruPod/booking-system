@@ -1,6 +1,6 @@
 import { Body, Controller, Delete, Get, Param, Post, UseGuards } from '@nestjs/common';
 import { ApartmentsService } from "./apartments.service";
-import { Apartment } from "./apartments.entity";
+import { Apartment } from "./entities/apartments.entity";
 import { CreateApartmentDto } from "./dto/create-apartment.dto";
 import { AccessGuard } from '../common/guards/access.guard';
 import { Roles } from '../common/decorators/roles.decorator';

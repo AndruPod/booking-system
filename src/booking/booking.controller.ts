@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Param, Post, UseGuards } from '@nestjs/common';
 import { BookingService } from "./booking.service";
-import { Booking } from "./booking.entity";
-import { BookingDto } from './booking.dto';
+import { Booking } from "./entities/booking.entity";
+import { BookingDto } from './dto/booking.dto';
 import { AccessGuard } from '../common/guards/access.guard';
 import { Roles } from '../common/decorators/roles.decorator';
 import { User } from '../common/decorators/user.decorator';

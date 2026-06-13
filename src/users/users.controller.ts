@@ -1,6 +1,6 @@
 import { Controller, Delete, Get, NotFoundException, Param, UseGuards } from '@nestjs/common';
 import { UsersService } from "./users.service";
-import { User } from './users.entity';
+import { User } from './entities/users.entity';
 import { Roles } from '../common/decorators/roles.decorator';
 import { AccessGuard } from '../common/guards/access.guard';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
